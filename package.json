@@ -1,6 +1,6 @@
 {
   "name": "karma-benchmarkjasmine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Karma plugin - adapter for Jasmine based benchmarking tool.This repository is forked from karma-jasmine",
   "main": "lib/index.js",
   "scripts": {
