@@ -1,7 +1,7 @@
 {
-  "name": "karma-jasmine",
-  "version": "0.2.1",
-  "description": "A Karma plugin - adapter for Jasmine testing framework.",
+  "name": "karma-benchmarkjasmine",
+  "version": "0.0.1",
+  "description": "A Karma plugin - adapter for Jasmine based benchmarking tool.This repository is forked from karma-jasmine",
   "main": "lib/index.js",
   "scripts": {
     "test": "grunt test"
@@ -15,7 +15,7 @@
     "karma-adapter",
     "jasmine"
   ],
-  "author": "Vojta Jina <vojta.jina@gmail.com>",
+  "author": "Rohit Boggarapu<rohit.b@fusioncharts.com>",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -30,11 +30,5 @@
   "peerDependencies": {
     "karma": ">=0.9"
   },
-  "license": "MIT",
-  "contributors": [
-    "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
-    "Barry Fitzgerald <barfitzgerald@gmail.com>",
-    "Robin Gloster <robin@loc-com.de>",
-    "rpark <objectiv@gmail.com>"
-  ]
+  "license": "MIT"
 }

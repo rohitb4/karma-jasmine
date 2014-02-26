@@ -136,7 +136,8 @@ var KarmaReporter = function(tc, jasmineEnv) {
       skipped     : skipped,
       success     : specResult.failedExpectations.length === 0,
       suite       : [],
-      time        : skipped ? 0 : new Date().getTime() - specResult.startTime
+      time        : skipped ? 0 : specResult.benchmarkSpec.stats.mean,//To be used with benchmark-jasmine-adapter
+      oppersec    : skipped ? 0 : specResult.benchmarkSpec.stats.hz//To be used with benchmark-jasmine-adapter
     };
 
     // generate ordered list of (nested) suite names
